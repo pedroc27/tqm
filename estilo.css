@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    background: url(../img/fondo0.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner {
+    height: 100%;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    min-height: 100vh;
+    display: flex; /* Utilizamos flex para centrar el contenido */
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-banner {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 50px 0 10px; /* Espaciado superior e inferior */
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 10px 50px;
+}
+
+/* Estilos para el botón */
+input[type="submit"] {
+    font-family: Poppins;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    margin: 20px auto; /* Centrado horizontal */
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+    text-decoration: none; /* Asegura que no haya subrayado */
+}
+
+input[type="submit"]:hover {
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Tamaño del texto en pantallas pequeñas */
+    }
+
+    p {
+        font-size: 1rem; /* Tamaño del texto en pantallas pequeñas */
+    }
+}

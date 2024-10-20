@@ -20,7 +20,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     min-height: 100vh;
-    display: flex; /* Utilizamos flex para centrar el contenido */
+    display: flex; 
     align-items: center;
     justify-content: center;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 h1 {
-    margin: 50px 0 10px; /* Espaciado superior e inferior */
+    margin: 50px 0 10px;
     font-weight: bold;
 }
 
